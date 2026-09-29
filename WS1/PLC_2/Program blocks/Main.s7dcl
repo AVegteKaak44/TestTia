@@ -14,6 +14,8 @@ ORGANIZATION_BLOCK "Main"
         RUNG wire#powerrail
             Contact( #input1 )
             I_Contact( #input2 )
+            I_Contact( #input2 )
+            I_Contact( #input2 )
             Coil( "test" )
         END_RUNG
     END_NETWORK
